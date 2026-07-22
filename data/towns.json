@@ -1,0 +1,71 @@
+{
+  "_comment": "One entry per town = one page. 'intro' and 'note' are unique per town on purpose (real local geography) so pages aren't find-replace clones. Add towns here and re-run build/generate.js to grow the network.",
+  "towns": [
+    {
+      "slug": "bognor-regis",
+      "name": "Bognor Regis",
+      "postcode": "PO21",
+      "primary": true,
+      "intro": "Salt air off the seafront and grit off the Esplanade are hard on a car — bodywork dulls and wheels pit faster a street back from the beach. We valet across Bognor, from the Marine Park Gardens end to Hotham Park, on your own driveway.",
+      "note": "Parked near the front all week? Ask about a monthly maintenance valet to keep the salt film off your paint.",
+      "neighbours": ["Aldwick", "Felpham", "Rose Green", "North Bersted"]
+    },
+    {
+      "slug": "felpham",
+      "name": "Felpham",
+      "postcode": "PO22",
+      "intro": "Felpham's quiet lanes and the pull down to the beach mean sand, and the odd tree-lined verge means sap and bird mess. We bring the full setup to you — from the village around Blake's cottage out to Middleton Road.",
+      "note": "Beach-hut and dog-walk regular? The interior deep-clean shifts sand and damp-dog smell properly, not just a quick hoover.",
+      "neighbours": ["Bognor Regis", "Middleton-on-Sea", "Elmer", "Ancton"]
+    },
+    {
+      "slug": "aldwick",
+      "name": "Aldwick",
+      "postcode": "PO21",
+      "intro": "The tree cover through Aldwick and the Bay estate looks lovely and wrecks a finish — sap, blossom and bird mess bake into the clear coat over summer. We come to the driveway and take our time on the paintwork.",
+      "note": "A garaged weekend car still needs the swirls and water spots taken back — that's what the deep valet is for.",
+      "neighbours": ["Bognor Regis", "Rose Green", "Pagham", "Nyetimber"]
+    },
+    {
+      "slug": "pagham",
+      "name": "Pagham",
+      "postcode": "PO21",
+      "intro": "A walk round Pagham Harbour is worth the mud it puts through the boot and footwells. We handle the harbour-side end of things — wet dogs, sandy mats and salty door shuts — parked outside your own place.",
+      "note": "Nature-reserve regular? Ask for rubber mats and boot liner as part of the interior clean.",
+      "neighbours": ["Nyetimber", "Aldwick", "Bognor Regis", "Rose Green"]
+    },
+    {
+      "slug": "middleton-on-sea",
+      "name": "Middleton-on-Sea",
+      "postcode": "PO22",
+      "intro": "From Elmer Sands to the Middleton parades, cars here are well looked after and it shows — which is exactly when a proper protective valet pays off. We come to you and finish it to that standard.",
+      "note": "Pride-and-joy in the drive? The deep valet includes a proper wax so the shine actually lasts past the first rain.",
+      "neighbours": ["Felpham", "Elmer", "Ancton", "Bognor Regis"]
+    },
+    {
+      "slug": "rose-green",
+      "name": "Rose Green",
+      "postcode": "PO21",
+      "intro": "Rose Green sits between the coast and the fields, so cars pick up a bit of everything — sea film one week, farm dust the next. We cover the whole area on your driveway, no need to drop it anywhere.",
+      "note": "School-run car full of crumbs and kit? The standard valet gets the interior back to livable in about an hour and a half.",
+      "neighbours": ["Aldwick", "Bognor Regis", "Pagham", "Nyetimber"]
+    },
+    {
+      "slug": "nyetimber",
+      "name": "Nyetimber",
+      "postcode": "PO21",
+      "intro": "Tucked between Pagham and Aldwick, Nyetimber's a quiet residential run where a mobile valet just makes sense — no queue at a hand car wash, we come to the door and do it properly.",
+      "note": "Two cars on the drive? Ask about doing both in one visit — it works out cheaper than two separate trips.",
+      "neighbours": ["Pagham", "Aldwick", "Rose Green", "Bognor Regis"]
+    },
+    {
+      "slug": "chichester",
+      "name": "Chichester",
+      "postcode": "PO19",
+      "primary": true,
+      "intro": "City-centre parking round the Cross and the Festival Theatre means kerb rash, tree sap off the Georgian streets and no easy way to wash at home. We bring the water and power to your driveway or workplace across Chichester.",
+      "note": "Commuter car living on-street? A regular maintenance valet keeps the sap and grime from ever building up.",
+      "neighbours": ["Fishbourne", "Bosham", "Tangmere", "Bognor Regis"]
+    }
+  ]
+}
