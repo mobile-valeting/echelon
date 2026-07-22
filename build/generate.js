@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const OUT = path.join(ROOT, "site");
+const OUT = path.join(ROOT, "docs");
 const { towns } = JSON.parse(fs.readFileSync(path.join(ROOT, "data/towns.json"), "utf8"));
 
 // ---- Single source of truth for business facts. TRIS: confirm these before going live. ----
