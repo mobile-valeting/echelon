@@ -9,6 +9,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="assets/style.css">
+  <style>
+/* Lustre: keyboard focus was invisible — every interactive element needs a ring. */
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent, currentColor);
+  outline-offset: 2px;
+}
+  </style>
 </head><body>
 <header class="topbar"><div class="wrap">
     <a class="brand" href="index.html"><svg class="mk" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3S6 13.4 6 21a10 10 0 0 0 20 0C26 13.4 16 3 16 3Z" fill="oklch(0.76 0.135 72)"/><path d="M16 8.5S10 15 10 20a6 6 0 0 0 6 6" stroke="oklch(0.255 0.045 205)" stroke-width="2" stroke-linecap="round" fill="none"/></svg><b>Echelon</b></a>
